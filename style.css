@@ -31,6 +31,8 @@
   p {
     font-size: 20px;
   }
+/* código omitido */
+
 img {
     height: 200px;
 }
@@ -41,7 +43,21 @@ img {
     gap: 10px;
 }
 
-.categoria {
+.categoria-videos {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+.categoria-videos img {
+    opacity 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity 1.0;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
